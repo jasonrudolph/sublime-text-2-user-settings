@@ -1,11 +1,17 @@
 [
   { "keys": ["ctrl+l"], "command": "insert_snippet", "args": { "name": "Packages/User/ruby-hashrocket.sublime-snippet" } },
 
-	{ "keys": ["ctrl+shift+."], "command": "erb", "context":
-	  [
-	    { "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
-	  ]
-	},
+  {
+    "keys": ["ctrl+shift+."],
+    "command": "erb",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee"
+      }
+    ]
+  },
 
   // Customizations for OpenSearchResult
   // https://github.com/abrookins/OpenSearchResult
