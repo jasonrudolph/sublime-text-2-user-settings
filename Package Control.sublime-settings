@@ -8,6 +8,7 @@
 		"ERB Insert and Toggle Commands",
 		"Gist",
 		"Git",
+		"GitGutter",
 		"Github Tools",
 		"Markdown Preview",
 		"Origami",
@@ -17,6 +18,7 @@
 		"SyncedSideBar",
 		"Theme - Soda",
 		"Toggle Symbol to String",
+		"ToggleQuotes",
 		"Wrap Plus"
 	]
 }
