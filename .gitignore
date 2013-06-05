@@ -1,3 +1,4 @@
 *.cache
 *.last-run
+*.pyc
 Gist.sublime-settings
