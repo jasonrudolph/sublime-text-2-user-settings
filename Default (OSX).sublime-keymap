@@ -15,5 +15,30 @@
 
   // Customizations for OpenSearchResult
   // https://github.com/abrookins/OpenSearchResult
-  { "keys": ["super+k", "super+o"], "command": "open_search_result" }
+  { "keys": ["super+k", "super+o"], "command": "open_search_result" },
+
+  // Customizations for Origami
+  // https://github.com/SublimeText/Origami
+  // Command + | to split panes vertically
+  // Command + - to split panes horizontally
+  {
+    "keys": ["ctrl+shift+back_slash"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        {"command": "create_pane", "args": {"direction": "right"}, "context": "window"},
+        {"command": "clone_file_to_pane", "args": {"direction": "right"}, "context": "window"}
+      ]
+    }
+  },
+  {
+    "keys": ["ctrl+minus"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        {"command": "create_pane", "args": {"direction": "down"}, "context": "window"},
+        {"command": "clone_file_to_pane", "args": {"direction": "down"}, "context": "window"}
+      ]
+    }
+  }
 ]
