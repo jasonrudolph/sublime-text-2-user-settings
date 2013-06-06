@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Packages/User/Color Schemes/Solarized (dark).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_size": 10.0,
 	"ignored_packages":
 	[
