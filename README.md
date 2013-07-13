@@ -13,7 +13,7 @@ git clone https://github.com/jasonrudolph/sublime-text-2-user-settings.git User
 ## Credit
 
 When you come across a script or a snippet in this repo, there's a good chance that it was written by someone other than me.
-I've tried to include propert attribution inline in each file for everything that I found elsewhere.
+I've tried to include proper attribution inline in each file for everything that I found elsewhere.
 Please contact me if you see something not so attributed.
 
 [sublime-text]: http://www.sublimetext.com/2
